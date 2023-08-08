@@ -1,0 +1,174 @@
+* { margin: 0;
+    padding: 0;
+
+}
+/* Style del header */
+
+header .cintillo h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    background-color: rgb(212, 11, 11);
+    color: white;
+    
+    
+    
+    
+     
+}
+header  h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white ;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    
+}
+
+header .barra{
+    display: flex;
+    
+}
+
+header .logo-kosiuko{
+    display: flex;
+    text-decoration: none;
+
+
+}
+.logo-kosiuko img{
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+nav .lista ul {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    padding-top: 20px;
+    padding-left: 860px;
+    padding-right: 10px;
+    list-style-type: none; 
+    display: flex;
+    
+   
+}
+nav .lista a { 
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+header .flota img{
+    
+    height: 70px;
+    position: fixed;
+    margin-left: 1270px;
+
+   
+}
+/* Style del main index*/
+
+ main .contenedor {
+    display: flex;
+ }
+
+main .imagen img{
+    height: 750px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+
+} 
+main .imagen2 img{
+    height: 750px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+
+}
+ main .contenedor1 img { 
+    margin-top: 50px;
+ }
+main .contenedor2 img {
+    width: 1350px;
+}
+
+
+/* Style de footer */
+
+footer { 
+    background-color: rgb(10, 10, 10);
+}
+ footer .redes { 
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+    
+ }
+ footer .redes2 img { 
+    width: 200px;
+ }
+
+ footer .mapa h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size:30px ;
+    
+
+   }
+
+
+ .copy { 
+    color: white;
+
+ }
+
+ /*Style main productos*/
+
+main .producto-remera {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 09px 20px rgb(43, 41, 41);
+}
+main .grid-contenedor {
+    display: grid;
+    
+    
+
+}
+ .grid-contenedor img {
+    margin-right: 20px;
+    
+    display: block;
+    cursor: pointer;
+
+ }
+ .grid-contenedor .contendor2 {
+    display: grid;
+    text-align: center;
+    
+ 
+ }
+ /*Style CV*/
+ main .titulo h2{
+    font-size: 600%;
+    text-align: center;
+    text-decoration: underline;
+
+    
+ }
+ main .titulo h3{
+    font-size: 250%;
+    text-align: center;
+ }
+ 
+
+ 
