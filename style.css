@@ -9,6 +9,7 @@ header .cintillo h2{
     font-size: 20px;
     background-color: rgb(212, 11, 11);
     color: white;
+    padding-left: 35%;
     
     
     
@@ -127,7 +128,7 @@ footer {
 
  /*Style main productos*/
 
-main .producto-remera {
+main .titulo-main {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 40px;
     background-color: rgb(26, 26, 26);
@@ -138,25 +139,40 @@ main .producto-remera {
     margin-bottom: 10px;
     box-shadow: 0px 09px 20px rgb(43, 41, 41);
 }
-main .grid-contenedor {
-    display: grid;
-    
-    
+.contenedor-ropa {
+    display: flex;
+    flex-direction: row;
+
 
 }
- .grid-contenedor img {
-    margin-right: 20px;
-    
-    display: block;
-    cursor: pointer;
 
- }
- .grid-contenedor .contendor2 {
-    display: grid;
-    text-align: center;
+.contenedor-ropa .imagenes img{
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
     
- 
+}
+.contenedor-ropa .imagenes p{
+    text-align: center;
+}
+main .contenedor-boton {
+    display: flex;
+    margin-left: 200px;
  }
+
+ main .abrigo {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 09px 20px rgb(43, 41, 41);
+ }
+
+ 
  /*Style CV*/
  main .titulo h2{
     font-size: 600%;
@@ -169,6 +185,13 @@ main .grid-contenedor {
     font-size: 250%;
     text-align: center;
  }
- 
+ .formulario {
+   margin-left: 500px;
+   margin-bottom: 200px;
+    
+}
+.formulario .relleno{
+    margin-bottom: 20px;
+}
 
  
