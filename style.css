@@ -65,6 +65,7 @@ nav .lista a {
 
 .container{
     display: flex;
+    position: absolute;
 }
  .container .flota img {
     width: 90px;
@@ -72,8 +73,11 @@ nav .lista a {
     position: fixed;
     justify-content: end;
     border: 2px;
+    top: 100px;
+    right: 4%;
     
     }
+
     
          
 
@@ -244,7 +248,7 @@ main .titulo h3{
 }
 
 
- /*style acerca*/
+ /*style acerca
  .container img {
     border: 10px solid black;
     width: 700px;
@@ -253,6 +257,7 @@ main .titulo h3{
     margin-top: 50px;
 
  }
+ */
   .acerca {
     background-color: black;
     color: white;
