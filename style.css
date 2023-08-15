@@ -16,6 +16,7 @@ header .cintillo h2{
     
      
 }
+
 header  h1{
     font-family: 'Roboto Condensed', sans-serif;
     color: white ;
@@ -41,6 +42,7 @@ header .logo-kosiuko{
     padding-left: 10px;
     padding-top: 6px;
 }
+ 
 
 nav .lista ul {
     font-family: 'Roboto Condensed', sans-serif;
@@ -59,16 +61,20 @@ nav .lista a {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     margin-right: 10px;
-    
-}
-header .flota img{
-    
+    }
+
+
+header .flota img {
+    display: flex;
     height: 70px;
     position: fixed;
-    margin-left: 1270px;
+   margin-left: 1270px;
+    }
 
-   
-}
+
+
+
+
 /* Style del main index*/
 
  main .contenedor {
@@ -126,7 +132,11 @@ footer {
 
  }
 
- /*Style main productos*/
+ /*Style  productos*/
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
 
 main .titulo-main {
     font-family: 'Roboto Condensed', sans-serif;
@@ -144,6 +154,16 @@ main .titulo-main {
     flex-direction: row;
 
 
+}
+@media ( max-width: 768px ){
+    .contenedor-ropa{
+        flex-direction: column;
+    }
+}
+@media ( max-width: 768px) {
+    .contenedor-ropa p {
+        text-align: left;
+    }
 }
 
 .contenedor-ropa .imagenes img{
@@ -171,27 +191,80 @@ main .contenedor-boton {
     margin-bottom: 10px;
     box-shadow: 0px 09px 20px rgb(43, 41, 41);
  }
-
+ footer .container h2{
+    font-family:'Roboto Condensed', sans-serif; 
+    color: white;
+  
+ }
  
  /*Style CV*/
- main .titulo h2{
-    font-size: 600%;
+ 
+main .titulo h2{
+    display: grid;
+    gap: 10px;
     text-align: center;
+    font-size: 50px;
     text-decoration: underline;
+}
+main .titulo h3{
+    display: grid;
+    text-align: center;
+    font-size: 55px;
+}
+
+
+
+ .formulario {  
+    display: grid;
+    row-gap: 5px;
+    text-align: center;
+   
+
+}
 
     
- }
- main .titulo h3{
-    font-size: 250%;
-    text-align: center;
- }
- .formulario {
-   margin-left: 500px;
-   margin-bottom: 200px;
-    
-}
 .formulario .relleno{
     margin-bottom: 20px;
 }
 
+@media (max-width: 800px) {
+     .titulo{
+        flex-direction: column;
+        color: rgb(12, 12, 12);
+     }
+}
+
+ /*style acerca*/
+ main .ksk img {
+    width: 700px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: 50px;
+
+ }
+  .acerca {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+ main .contenedor-acerca{
+    display: flex;
+   border: 6px solid blue;
+   height: 200px;
+
+    
+    
+ }
  
+ .contenedor-acerca .parrafo {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border: 5px solid green;
+
+ }
+  
+    
+ 
+   
