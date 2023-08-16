@@ -248,38 +248,29 @@ main .titulo h3{
 }
 
 
- /*style acerca
- .container img {
-    border: 10px solid black;
-    width: 700px;
-    height: 300px;
-    margin-left: 300px;
-    margin-top: 50px;
-
+ /*style acerca*/
+ .about{
+    display: flex;
+    margin-top: 20px;
+    
  }
- */
-  .acerca {
+     
+ .about-item{
     background-color: black;
     color: white;
-    display: inline-block;
-    margin-bottom: 10px;
-  }
- main .contenedor-acerca{
-    display: flex;
-   border: 6px solid blue;
-   height: 200px;
-
+    text-align: center;
     
+}
+.about .parrafo{
+    text-align: center;
+    background-color: white;
+    color: black;
     
- }
+}
  
- .contenedor-acerca .parrafo {
-    display: flex;
-   flex-direction: column;
-   justify-content: center;
-   border: 5px solid green;
 
- }
+
+ 
  /*Style de carrito*/
 
   
