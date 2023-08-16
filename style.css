@@ -308,7 +308,7 @@ main .titulo h3{
     display: flex;
     font-size: 25px;
     margin-left: 500px;
-    position: absolute;
+    
     cursor: pointer;
     
  }
