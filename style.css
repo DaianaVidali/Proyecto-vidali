@@ -63,11 +63,11 @@ nav .lista a {
     margin-right: 10px;
     }
 
-.container{
+.flota1{
     display: flex;
     position: absolute;
 }
- .container .flota img {
+  .flota img {
     width: 90px;
     height: 90px;
     position: fixed;
@@ -267,11 +267,57 @@ main .titulo h3{
     color: black;
     
 }
- 
+.biografia {
+    display: flex;
+    margin-top: 20px;
+
+}
+ .biografia-item{
+    background-color: black;
+    color: white;
+    
+ }
+ .biografia .parrafo{
+    text-align: center;
+    background-color: white;
+    color: black;
+    
+
+ }
+
 
 
  
  /*Style de carrito*/
+ @media (min-width: 368px){
+    .cintillo{
+        flex-direction: column;
+    }
+ }
+
+ .carrito .ropa img{
+    width: 400px;
+    height: 400px;
+
+ }
+ .precio .pesos h2{
+   background-color: black;
+    color: white;
+ }
+ .precio .pesos .boton-pagar{
+    display: flex;
+    font-size: 25px;
+    margin-left: 500px;
+    position: absolute;
+    cursor: pointer;
+    
+ }
+ @media (min-width: 368px)and (max-width:1000px){
+    .precio .boton-pagar{
+        flex-direction: column;
+    }
+ }
+
 
   
     
