@@ -77,7 +77,7 @@ nav .lista a {
     right: 4%;
     
     }
-
+   
     
          
 
@@ -90,28 +90,44 @@ nav .lista a {
 
 /* Style del main index*/
 
- main .contenedor {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .prueba .prueba-item .clase{
+    display: flex;
+   
+    
+    
+ }
+ .prueba .prueba-item .clase img{
+
+    width: 700px;
+    flex-direction: column;
+    
+ }
+
+ .contenedorimg1 article{
     display: flex;
  }
 
-main .imagen img{
-    height: 750px; 
-    margin-top: 10px;
-    margin-left: 10px;
-    display: flex;
-
-} 
-main .imagen2 img{
-    height: 750px; 
-    margin-top: 10px;
-    margin-left: 10px;
-    display: flex;
-
-}
- main .contenedor1 img { 
+ main .contenedorimg1 img { 
     margin-top: 50px;
  }
-main .contenedor2 img {
+
+
+@media( max-width:700px){
+    .contenedorimg1 article{
+        flex-direction: column;
+
+    }
+}
+ .chica .item .sola{
+    display: flex;
+ } 
+
+ .chica .item .sola img {
     width: 1350px;
 }
 
@@ -289,7 +305,7 @@ main .titulo h3{
 
  
  /*Style de carrito*/
- @media (min-width: 368px){
+ @media (max-width: 700px){
     .cintillo{
         flex-direction: column;
     }
@@ -307,19 +323,13 @@ main .titulo h3{
  .precio .pesos .boton-pagar{
     display: flex;
     font-size: 25px;
-    margin-left: 500px;
+    justify-content: center;
     
     cursor: pointer;
     
  }
- @media (min-width: 368px)and (max-width:1000px){
-    .precio .boton-pagar{
-        flex-direction: column;
-    }
- }
-
-
-  
-    
  
-   
+
+
+ 
+ 
