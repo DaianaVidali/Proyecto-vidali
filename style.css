@@ -4,7 +4,7 @@
 }
 /* Style del header */
 
-header .cintillo h2{
+header .cintillo h1{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
     background-color: rgb(212, 11, 11);
@@ -152,6 +152,14 @@ footer {
     color: white;
     font-size:30px ;
     
+
+   }
+   footer .mapa2 {
+    width: 400px;
+    height: 300px;
+    border: 0;
+    
+
 
    }
 
