@@ -103,7 +103,7 @@ nav .lista a {
  }
  .prueba .prueba-item .clase img{
 
-    width: 700px;
+    width: 100%;
     flex-direction: column;
     
  }
@@ -128,8 +128,9 @@ nav .lista a {
  } 
 
  .chica .item .sola img {
-    width: 1350px;
+    width: 100%;
 }
+
 
 
 /* Style de footer */
@@ -154,7 +155,7 @@ footer {
     
 
    }
-   footer .mapa2 {
+   footer .mapa2 iframe{
     width: 400px;
     height: 300px;
     border: 0;
