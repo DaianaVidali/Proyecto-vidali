@@ -21,10 +21,9 @@ header  h1{
     font-family: 'Roboto Condensed', sans-serif;
     color: white ;
     padding-top: 10px;
-    padding-left: 20px;
     padding-bottom: 5px;
     
-}
+} 
 
 header .barra{
     display: flex;
@@ -41,27 +40,10 @@ header .logo-kosiuko{
     height: 50px;
     padding-left: 10px;
     padding-top: 6px;
-}
+} 
  
 
-nav .lista ul {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: white;
-    padding-top: 20px;
-    padding-left: 860px;
-    padding-right: 10px;
-    list-style-type: none; 
-    display: flex;
-    
-   
-}
-nav .lista a { 
-    font-family: 'Roboto Condensed', sans-serif;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    margin-right: 10px;
-    }
+
 
 .flota1{
     display: flex;
@@ -216,6 +198,12 @@ main .titulo-main {
 main .contenedor-boton {
     display: flex;
     margin-left: 200px;
+    padding: 10px 10px;
+    
+ }
+ .contenedor-boton .boton:hover{
+     background: rgb(26, 26, 26);
+     color: white;
  }
 
  main .abrigo {
@@ -283,7 +271,7 @@ main .titulo h3{
     
  }
      
- .about-item{
+ .about-item h2{
     background-color: black;
     color: white;
     text-align: center;

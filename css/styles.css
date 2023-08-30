@@ -1,3 +1,249 @@
+header .cintillo {
+  background-color: rgb(212, 11, 11);
+}
+header .cintillo h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 35%;
+}
 
+header .barra {
+  display: flex;
+}
+
+.logo-kosiuko {
+  display: flex;
+  text-decoration: none;
+}
+.logo-kosiuko img {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 6px;
+}
+
+.flota1 {
+  display: flex;
+  position: absolute;
+}
+
+.flota img {
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  justify-content: end;
+  border: 2px;
+  top: 100px;
+  right: 4%;
+}
+
+.prueba-item {
+  display: flex;
+}
+.prueba-item .clase img {
+  width: 100%;
+  flex-direction: column;
+}
+
+.contenedorimg1 {
+  display: flex;
+}
+.contenedorimg1 article img {
+  margin-top: 50px;
+}
+
+@media (max-width: 700px) {
+  .contenedorimg1 article {
+    flex-direction: column;
+  }
+}
+.chica .item .sola {
+  display: flex;
+}
+.chica .item .sola img {
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(10, 10, 10);
+}
+footer .redes {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+footer .redes2 img {
+  width: 200px;
+}
+
+footer .mapa h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+footer .mapa2 iframe {
+  width: 400px;
+  height: 300px;
+  border: 0;
+}
+
+footer .copy {
+  color: white;
+}
+
+main .titulo-main {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 40px;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0px 9px 20px rgb(43, 41, 41);
+}
+
+.contenedor-ropa {
+  display: flex;
+  flex-direction: row;
+}
+.contenedor-ropa .imagenes img {
+  width: 400px;
+  height: 400px;
+  margin-left: 20px;
+}
+.contenedor-ropa .imagenes img .imagenes p {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contenedor-ropa {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-ropa p {
+    text-align: left;
+  }
+}
+.contenedor-boton {
+  display: flex;
+  margin-left: 200px;
+  padding: 10px 10px;
+}
+.contenedor-boton .boton:hover {
+  background: rgb(26, 26, 26);
+  color: white;
+}
+
+.abrigo {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 40px;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0px 9px 20px rgb(43, 41, 41);
+}
+
+footer {
+  margin-top: 20px;
+}
+footer .container {
+  display: flex;
+  margin-right: 200px;
+}
+footer .container h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+}
+
+.titulo h2 {
+  display: grid;
+  gap: 10px;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.titulo h3 {
+  display: grid;
+  text-align: center;
+  font-size: 55px;
+}
+
+.formulario {
+  display: grid;
+  row-gap: 5px;
+  text-align: center;
+}
+.formulario .relleno {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .titulo {
+    flex-direction: column;
+    color: rgb(12, 12, 12);
+  }
+}
+.about {
+  display: flex;
+  margin-top: 20px;
+}
+.about .parrafo {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.about-item h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.biografia {
+  display: flex;
+  margin-top: 20px;
+}
+.biografia .parrafo {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.biografia-item {
+  background-color: black;
+  color: white;
+}
+
+.carrito .ropa img {
+  width: 400px;
+  height: 400px;
+}
+
+.precio .pesos h2 {
+  background-color: black;
+  color: white;
+}
+
+.precios .pesos .boton-pagar {
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  cursor: pointer;
+}
+.precios .pesos .boton-pagar .button {
+  font-size: 25px;
+  justify-content: center;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=styles.css.map */
