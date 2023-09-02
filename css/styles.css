@@ -1,3 +1,8 @@
+.cintillo h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+
 header .cintillo {
   background-color: rgb(212, 11, 11);
 }
@@ -115,8 +120,10 @@ main .titulo-main {
   width: 400px;
   height: 400px;
   margin-left: 20px;
+  border: 1px solid black;
 }
-.contenedor-ropa .imagenes img .imagenes p {
+
+.contenedor-ropa .imagenes p {
   text-align: center;
 }
 
@@ -222,6 +229,7 @@ footer .container h2 {
 .biografia-item {
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 .carrito .ropa img {
@@ -236,14 +244,7 @@ footer .container h2 {
 
 .precios .pesos .boton-pagar {
   display: flex;
-  font-size: 25px;
   justify-content: center;
-  cursor: pointer;
-}
-.precios .pesos .boton-pagar .button {
-  font-size: 25px;
-  justify-content: center;
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -273,7 +273,7 @@ main .titulo h3{
      
  .about-item h2{
     background-color: black;
-    color: white;
+    color:white;
     text-align: center;
     
 }
@@ -324,7 +324,6 @@ main .titulo h3{
     display: flex;
     font-size: 25px;
     justify-content: center;
-    
     cursor: pointer;
     
  }

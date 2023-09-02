@@ -1,10 +1,17 @@
+@import "colores";
+@import "tipografia";
+
+
+
+
+
 header{
     .cintillo{
-        background-color:rgb(212, 11, 11) ;
+        background-color:$color-red-dark;
         h1{
             font-family: 'Roboto Condensed', sans-serif;
             font-size: 20px;
-            color: white;
+            color: $color-white;
             padding-top: 10px;
             padding-bottom: 5px;
             padding-left: 35%;
@@ -78,11 +85,12 @@ header {
     }
 }
 footer{
-    background-color: rgb(10, 10, 10);
+    background-color: $color-black-light;
     .redes{
         font-family: 'Roboto Condensed', sans-serif;
-        color: white;
+        color: $color-white;
         font-size: 20px;
+        
     }
     
 }
@@ -94,7 +102,7 @@ footer .redes2{
 footer{
     .mapa h2{
         font-family: 'Roboto Condensed', sans-serif;
-        color: white;
+        color: $color-white;
         font-size:30px ;
     }
 }
@@ -107,15 +115,15 @@ footer{
 }
 footer{
     .copy{
-        color: white;
+        color: $color-white;
     }
 }
 main{
     .titulo-main{
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 40px;
-        background-color: rgb(26, 26, 26);
-        color: white;
+        background-color: $color-black-grey;
+        color: $color-white;
         display: inline-block;
         margin-top: 20px;
         margin-left: 20px;
@@ -130,10 +138,15 @@ main{
         width: 400px;
         height: 400px;
         margin-left: 20px;
-        .imagenes p{
-            text-align: center;
-        }
+        border: 1px solid black;
+        
     
+    }
+}
+.contenedor-ropa{
+    .imagenes p{
+        text-align: center;
+        
     }
 }
 @media ( max-width: 768px ){
@@ -152,8 +165,8 @@ main{
     padding: 10px 10px;
     .boton{
         &:hover{
-            background: rgb(26, 26, 26);
-            color: white;
+            background: $color-black-grey;
+            color: $color-white;
         }
     }
   
@@ -161,8 +174,8 @@ main{
 .abrigo{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 40px;
-    background-color: rgb(26, 26, 26);
-    color: white;
+    background-color: $color-black-grey;
+    color: $color-white;
     display: inline-block;
     margin-top: 20px;
     margin-left: 20px;
@@ -176,7 +189,7 @@ footer{
         margin-right: 200px;
         & h2{
             font-family:'Roboto Condensed', sans-serif; 
-            color: white;
+            color: $color-white;
         }
         
         
@@ -215,48 +228,51 @@ footer{
     margin-top: 20px;
     .parrafo{
         text-align: center;
-        background-color: white;
-        color: black;
+        background-color: $color-white;
+        color: $color-black;
     }
     
 }
 .about-item h2{
-    background-color: black;
-    color: white;
+    background-color: $color-black;
+    color: $color-white;
     text-align: center;
+    
 }
 .biografia{
     display: flex;
     margin-top: 20px;
     .parrafo{
         text-align: center;
-        background-color: white;
-        color: black;
+        background-color: $color-white;
+        color: $color-black;
     }
 }
-.biografia-item{
-    background-color: black;
-    color: white;
+.biografia-item {
+    background-color: $color-black;
+    color: $color-white;
+    text-align: center;
 }
 .carrito .ropa img{
     width: 400px;
     height: 400px;
 }
 .precio .pesos h2{
-    background-color: black;
-    color: white;
+    background-color:$color-black;
+    color: $color-white;
 
 }
 .precios .pesos .boton-pagar{
     display: flex;
-    font-size: 25px;
-    justify-content: center;
-    cursor: pointer;
-    .button{
-        font-size: 25px;
-        justify-content: center;
-        cursor: pointer;
-    }
-}
+   justify-content: center;
+   
+   
+   }
+   
+   
+    
+    
+
+
 
 
