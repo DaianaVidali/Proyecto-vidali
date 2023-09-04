@@ -141,10 +141,12 @@ main .titulo-main, main .abrigo {
   display: flex;
   margin-left: 200px;
   padding: 10px 10px;
+  transition: height 5s;
 }
 .contenedor-boton .boton:hover {
   background: rgb(26, 26, 26);
   color: white;
+  height: 40px;
 }
 
 footer {
@@ -167,10 +169,16 @@ footer .container h2 {
   text-decoration: underline;
 }
 
+.titulo {
+  transition: font-size 2s;
+}
 .titulo h3 {
   display: grid;
   text-align: center;
   font-size: 55px;
+}
+.titulo h3:hover {
+  font-size: 65px;
 }
 
 .formulario {
@@ -188,33 +196,23 @@ footer .container h2 {
     color: rgb(12, 12, 12);
   }
 }
-.about {
-  display: flex;
-  margin-top: 20px;
-}
 .about .parrafo {
   text-align: left;
   background-color: white;
   color: black;
 }
 
-.about-item h2 {
-  background-image: linear-gradient(to right, black, rgb(85, 83, 83));
-  color: white;
-  text-align: center;
-}
-
-.biografia {
+.biografia, .about {
   display: flex;
   margin-top: 20px;
 }
-.biografia .parrafo {
+.biografia .parrafo, .about .parrafo {
   text-align: left;
   background-color: white;
   color: black;
 }
 
-.biografia-item {
+.biografia-item, .about-item {
   background-image: linear-gradient(to right, black, rgb(85, 83, 83));
   color: white;
   text-align: center;
@@ -234,10 +232,13 @@ footer .container h2 {
 .pesos .boton-pagar {
   display: flex;
   justify-content: center;
+  transition: height 5s;
 }
 .pesos .boton-pagar .boton2:hover {
   background-color: rgb(26, 26, 26);
   color: white;
+  height: 40px;
+  width: 60px;
 }
 
 /*# sourceMappingURL=styles.css.map */

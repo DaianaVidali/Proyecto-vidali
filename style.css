@@ -271,7 +271,7 @@ main .titulo h3{
     
  }
      
- .about-item h2{
+ .about-item {
     background-color: black;
     color:white;
     text-align: center;

@@ -141,12 +141,16 @@ main{
         margin-left: 20px;
         border: 1px solid black;
         
+        
+        
     
     }
 }
 .contenedor-ropa{
+    
     .imagenes p{
         text-align: center;
+        
         
     }
 }
@@ -164,10 +168,12 @@ main{
     display: flex;
     margin-left: 200px;
     padding: 10px 10px;
+    transition: height 5s;
     .boton{
         &:hover{
             background: $color-black-grey;
             color: $color-white;
+            height: 40px;
         }
     }
   
@@ -189,25 +195,34 @@ footer{
         
     }
 }
-.titulo h2{
-    display: grid;
-    gap: 10px;
-    text-align: center;
-    font-size: 50px;
-    text-decoration: underline;
+.titulo h2 {
+    
+        display: grid;
+        gap: 10px;
+        text-align: center;
+        font-size: 50px;
+        text-decoration: underline;
+
 }
-.titulo h3{
-    display: grid;
-    text-align: center;
-    font-size: 55px;
+.titulo {
+    transition: font-size 2s;
+    h3{
+        display: grid;
+       text-align: center;
+       font-size: 55px;
+       &:hover{
+        font-size: 65px;
+       }
+    }
+    
 }
 .formulario{
     display: grid;
     row-gap: 5px;
     text-align: center;
+    
     .relleno{
         margin-bottom: 20px;
-        
         
     }
 }
@@ -226,7 +241,7 @@ footer{
     }
     
 }
-.about-item h2{
+.about-item {
     @extend .biografia-item
     
 }
@@ -259,10 +274,14 @@ footer{
  .pesos .boton-pagar{
     display: flex;
    justify-content: center;
+   transition: height 5s;
    .boton2{
       &:hover{
           background-color: $color-black-grey;
           color: $color-white;
+          height: 40px;
+          width: 60px;
+          
             
         }
    }
