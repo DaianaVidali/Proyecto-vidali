@@ -85,7 +85,8 @@ header {
     }
 }
 footer{
-    background-color: $color-black-light;
+    background-image: linear-gradient(to right, black, rgb(31, 30, 30));
+
     .redes{
         font-family: 'Roboto Condensed', sans-serif;
         color: $color-white;
@@ -122,7 +123,7 @@ main{
     .titulo-main{
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 40px;
-        background-color: $color-black-grey;
+        background-image: linear-gradient(to right, black, rgb(85, 83, 83));
         color: $color-white;
         display: inline-block;
         margin-top: 20px;
@@ -172,15 +173,8 @@ main{
   
 }
 .abrigo{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 40px;
-    background-color: $color-black-grey;
-    color: $color-white;
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    box-shadow: 0px 09px 20px rgb(43, 41, 41);
+    @extend .titulo-main;
+
 }
 footer{
     margin-top: 20px;
@@ -224,49 +218,55 @@ footer{
     }
 }
 .about{
-    display: flex;
-    margin-top: 20px;
+    @extend .biografia;
     .parrafo{
-        text-align: center;
+        text-align: left;
         background-color: $color-white;
         color: $color-black;
     }
     
 }
 .about-item h2{
-    background-color: $color-black;
-    color: $color-white;
-    text-align: center;
+    @extend .biografia-item
     
 }
 .biografia{
     display: flex;
     margin-top: 20px;
     .parrafo{
-        text-align: center;
+        text-align: left; 
         background-color: $color-white;
         color: $color-black;
     }
 }
 .biografia-item {
-    background-color: $color-black;
+    background-image: linear-gradient(to right, black, rgb(85, 83, 83));
     color: $color-white;
     text-align: center;
 }
+
 .carrito .ropa img{
     width: 400px;
     height: 400px;
+    border: 1px solid black;
 }
 .precio .pesos h2{
-    background-color:$color-black;
+    background-image: linear-gradient(to right, black, rgb(85, 83, 83));
+
     color: $color-white;
 
 }
-.precios .pesos .boton-pagar{
+ .pesos .boton-pagar{
     display: flex;
    justify-content: center;
-   
-   
+   .boton2{
+      &:hover{
+          background-color: $color-black-grey;
+          color: $color-white;
+            
+        }
+   }
+    
    }
    
    
