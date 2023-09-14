@@ -24,15 +24,18 @@ header {
         display: flex;
     }
 }
-.logo-kosiuko{
+header {
+
+ .logo-kosiuko{
     display: flex;
     text-decoration: none;
-    img{
-        height: 50px;
-        padding-left: 10px;
-        padding-top: 6px;
-    }
+       img{
+          height: 50px;
+          padding-left: 10px;
+          padding-top: 6px;
+        }
 
+   }
 }
 .flota1{
     display: flex;
@@ -84,9 +87,9 @@ header {
         width: 100%;
     }
 }
+ 
 footer{
-    background-image: linear-gradient(to right, black, rgb(31, 30, 30));
-
+    background-color:$color-black;
     .redes{
         font-family: 'Roboto Condensed', sans-serif;
         color: $color-white;
@@ -136,6 +139,7 @@ main{
     display: flex;
     flex-direction: row;
     .imagenes img{
+        display: flex;
         width: 400px;
         height: 400px;
         margin-left: 20px;
@@ -170,9 +174,11 @@ main{
     padding: 10px 10px;
     transition: height 5s;
     .boton{
+        background-color: $color-black-grey;
+        color: $color-white;
         &:hover{
-            background: $color-black-grey;
-            color: $color-white;
+            background: $color-white;
+            color: $color-black;
             height: 40px;
         }
     }
@@ -195,6 +201,7 @@ footer{
         
     }
 }
+
 .titulo h2 {
     
         display: grid;
@@ -232,11 +239,14 @@ footer{
        color: rgb(12, 12, 12);
     }
 }
+
+
+
 .about{
     @extend .biografia;
     .parrafo{
         text-align: left;
-        background-color: $color-white;
+        background-color:$color-white;
         color: $color-black;
     }
     
@@ -251,7 +261,7 @@ footer{
     .parrafo{
         text-align: left; 
         background-color: $color-white;
-        color: $color-black;
+        color:$color-black;
     }
 }
 .biografia-item {
@@ -259,6 +269,17 @@ footer{
     color: $color-white;
     text-align: center;
 }
+
+.pareja{
+    .cynthia{
+        .fede{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
 
 .carrito .ropa img{
     width: 400px;

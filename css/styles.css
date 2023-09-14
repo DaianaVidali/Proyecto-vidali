@@ -19,11 +19,11 @@ header .barra {
   display: flex;
 }
 
-.logo-kosiuko {
+header .logo-kosiuko {
   display: flex;
   text-decoration: none;
 }
-.logo-kosiuko img {
+header .logo-kosiuko img {
   height: 50px;
   padding-left: 10px;
   padding-top: 6px;
@@ -72,7 +72,7 @@ header .barra {
 }
 
 footer {
-  background-image: linear-gradient(to right, black, rgb(31, 30, 30));
+  background-color: black;
 }
 footer .redes {
   font-family: "Roboto Condensed", sans-serif;
@@ -117,6 +117,7 @@ main .titulo-main, main .abrigo {
   flex-direction: row;
 }
 .contenedor-ropa .imagenes img {
+  display: flex;
   width: 400px;
   height: 400px;
   margin-left: 20px;
@@ -143,9 +144,13 @@ main .titulo-main, main .abrigo {
   padding: 10px 10px;
   transition: height 5s;
 }
-.contenedor-boton .boton:hover {
-  background: rgb(26, 26, 26);
+.contenedor-boton .boton {
+  background-color: rgb(26, 26, 26);
   color: white;
+}
+.contenedor-boton .boton:hover {
+  background: white;
+  color: black;
   height: 40px;
 }
 
@@ -216,6 +221,10 @@ footer .container h2 {
   background-image: linear-gradient(to right, black, rgb(85, 83, 83));
   color: white;
   text-align: center;
+}
+
+.pareja .cynthia .fede img {
+  width: 100%;
 }
 
 .carrito .ropa img {
