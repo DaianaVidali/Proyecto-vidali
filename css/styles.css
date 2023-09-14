@@ -62,6 +62,8 @@ header .logo-kosiuko img {
 @media (max-width: 700px) {
   .contenedorimg1 article {
     flex-direction: column;
+  }
+  .contenedorimg1 article img {
     width: 100%;
   }
 }
@@ -92,7 +94,7 @@ footer .mapa h2 {
 }
 
 footer .mapa2 iframe {
-  width: 400px;
+  width: 350px;
   height: 300px;
 }
 
