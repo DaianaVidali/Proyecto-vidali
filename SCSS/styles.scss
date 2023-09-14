@@ -281,6 +281,17 @@ footer{
     color: $color-white;
     text-align: center;
 }
+.contenedor-gif{
+    display: flex;
+    justify-content: center;
+    
+}
+@media( max-width:700px){
+    .contenedor-gif .gif{
+        width: 100%;
+        flex-direction: column;
+    }
+}
 
 
 
