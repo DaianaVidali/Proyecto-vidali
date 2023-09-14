@@ -234,6 +234,9 @@ footer .container h2 {
   display: flex;
   justify-content: center;
 }
+.contenedor-gif .gif img {
+  width: 350px;
+}
 
 @media (max-width: 700px) {
   .contenedor-gif .gif {
