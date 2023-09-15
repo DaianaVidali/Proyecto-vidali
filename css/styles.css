@@ -208,6 +208,15 @@ footer .container h2 {
     color: rgb(12, 12, 12);
   }
 }
+.formulario .relleno input .button {
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+.formulario .relleno input .button:hover {
+  background: white;
+  color: black;
+}
+
 .about .parrafo {
   text-align: left;
   background-color: white;
