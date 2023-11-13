@@ -276,4 +276,16 @@ footer .container h2 {
   width: 60px;
 }
 
+.ropa .boton-agregar {
+  display: flex;
+  padding-bottom: 5px;
+  transition: height 10s;
+}
+.ropa .boton-agregar .boton3:hover {
+  background-color: rgb(26, 26, 26);
+  color: white;
+  height: 40px;
+  width: 150px;
+}
+
 /*# sourceMappingURL=styles.css.map */

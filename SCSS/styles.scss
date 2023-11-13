@@ -185,7 +185,7 @@ main{
     margin-left: 200px;
     padding: 10px 10px;
     transition: height 5s;
-    .boton{
+    .boton {
         background-color: $color-black-grey;
         color: $color-white;
         &:hover{
@@ -196,6 +196,8 @@ main{
     }
   
 }
+
+ 
 .abrigo{
     @extend .titulo-main;
 
@@ -338,6 +340,24 @@ footer{
    }
     
    }
+   .ropa .boton-agregar{
+    display: flex;
+   padding-bottom: 5px;
+   transition: height 10s;
+   .boton3{
+      &:hover{
+          background-color: $color-black-grey;
+          color: $color-white;
+          height: 40px;
+          width: 150px;
+          
+            
+        }
+   }
+    
+   }
+   
+
    
    
     

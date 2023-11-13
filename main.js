@@ -20,6 +20,7 @@ let mail = prompt("Ingrese su mail si desea recibir las novedades");
 agregarMail
 alert("Gracias por unirte a la comunidad Kosiuko, estaras recibiendo las novedades"); */
 
+/*SEGUNDA PRE ENTREGA 
 alert("Bienvenido Ezequiel");
 
 
@@ -79,13 +80,57 @@ if (carrito.length > 0) {
     alert("Total a pagar: " + total + "$");
 } else {
     alert("Gracias por visitar Kosiuko");
+} */
+
+
+ 
+function obtenerCarrito() {
+    return JSON.parse(localStorage.getItem('carrito')) || [];
 }
 
+function guardarCarrito(carrito) {
+    localStorage.setItem('carrito', JSON.stringify(carrito));
+}
 
-  
-   
+function agregarAlCarrito(producto, precio) {
+    let carrito = obtenerCarrito();
+    carrito.push({ producto, precio });
+    guardarCarrito(carrito);
+    actualizarCarrito();
+}
 
+function actualizarCarrito() {
+    let carrito = obtenerCarrito();
+    let listaCarrito = document.getElementById('lista-carrito');
+    let totalCompra = 0;
 
+    
+    listaCarrito.innerHTML = '';
+
+     carrito.forEach(item => {
+        listaCarrito.innerHTML += `<p>${item.producto} - $${item.precio}</p>`;
+        totalCompra += item.precio;
+    });
+
+    document.getElementById('total-compra').innerText = `Total de la compra: $${totalCompra}`;
+
+    document.getElementById('carrito-titulo').innerText = `CARRITO DE COMPRAS (${carrito.length})`;
+}
+
+function pagar() {
+    let carrito = obtenerCarrito();
+    if (carrito.length === 0) {
+        alert('El carrito está vacío. Agrega productos antes de pagar.');
+        return;
+    }
+
+    let totalCompra = carrito.reduce((total, item) => total + item.precio, 0);
+    alert(`Pago realizado. Total de la compra: $${totalCompra}. Gracias por tu compra.`);
+    guardarCarrito([]);
+    actualizarCarrito();
+}
+
+window.onload = actualizarCarrito;
 
 
 
