@@ -83,7 +83,7 @@ if (carrito.length > 0) {
 } */
 
 
- 
+  
 function obtenerCarrito() {
     return JSON.parse(localStorage.getItem('carrito')) || [];
 }
@@ -124,13 +124,28 @@ function pagar() {
         return;
     }
 
+   
     let totalCompra = carrito.reduce((total, item) => total + item.precio, 0);
     alert(`Pago realizado. Total de la compra: $${totalCompra}. Gracias por tu compra.`);
+    
+
     guardarCarrito([]);
     actualizarCarrito();
 }
 
-window.onload = actualizarCarrito;
+window.onload = actualizarCarrito; 
+
+Swal.fire({
+  title: "KOSIUKO",
+  text: "Siempre es importante amarse y hacernos un mimo a uno mismo ¿Estás liste?",
+  
+});
+
+
+
+
+
+
 
 
 
