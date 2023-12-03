@@ -139,7 +139,12 @@ Swal.fire({
   title: "KOSIUKO",
   text: "Siempre es importante amarse y hacernos un mimo a uno mismo ¿Estás liste?",
   
-});
+}); 
+
+
+
+
+
 
 
 
