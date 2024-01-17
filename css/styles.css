@@ -288,4 +288,18 @@ footer .container h2 {
   width: 150px;
 }
 
+.carrito-boton .carrito-clean {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  transition: height 10s;
+}
+.carrito-boton .carrito-clean .carrito-eliminar:hover {
+  background-color: rgb(26, 26, 26);
+  color: white;
+  height: 40px;
+  width: 150px;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -356,12 +356,26 @@ footer{
    }
     
    }
-   #total-compra{
-    color: aqua;
-    font-family: 'Roboto Condensed', sans-serif;
 
+   .carrito-boton .carrito-clean{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+   padding-bottom: 5px;
+   transition: height 10s;
+   .carrito-eliminar{
+      &:hover{
+          background-color: $color-black-grey;
+          color: $color-white;
+          height: 40px;
+          width: 150px;
+          
+            
+        }
    }
-   
+    
+   }
+  
 
    
    
