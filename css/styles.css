@@ -124,7 +124,30 @@ main .titulo-main, main .abrigo {
   display: flex;
   flex-direction: row;
 }
-.contenedor-ropa .imagenes img {
+.contenedor-ropaS {
+  display: flex;
+  flex-direction: row;
+}
+.contenedor-ropaR {
+  display: flex;
+  flex-direction: row;
+}
+/*aca a .imagenesR le agregue la R unico cambio*/
+.contenedor-ropa .imagenesR img {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.contenedor-ropaS .imagenesS img {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.contenedor-ropaR .imagenesR img {
   display: flex;
   width: 100%;
   height: 400px;
@@ -134,6 +157,37 @@ main .titulo-main, main .abrigo {
 .contenedor-ropa .imagenes p {
   text-align: center;
 }
+.contenedor-ropaS .imagenesS p {
+  text-align: center;
+}
+.contenedor-ropaR .imagenesR p {
+  text-align: center;
+}
+/*
+.carrito-final{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+  background-image: linear-gradient(to right, black, rgb(85, 83, 83));
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0px 9px 20px rgb(43, 41, 41);
+}*/
+.total-carrito {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 25px;
+  background-image: linear-gradient(to right, black, rgb(85, 83, 83));
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0px 9px 20px rgb(43, 41, 41);
+
+}
+
 
 @media (max-width: 768px) {
   .contenedor-ropa {
@@ -145,21 +199,35 @@ main .titulo-main, main .abrigo {
     text-align: left;
   }
 }
-.contenedor-boton {
+.agregar {
   display: flex;
   margin-left: 200px;
-  padding: 10px 10px;
-  transition: height 5s;
+  padding: 7px 7px;
+  transition: 5s;
 }
-.contenedor-boton .boton {
+.agregarS {
+  display: flex;
+  margin-left: 200px;
+  padding: 7px 7px;
+  transition: 5s;
+}
+
+.agregarR {
+  display: flex;
+  margin-left: 200px;
+  padding: 7px 7px;
+  transition: 5s;
+}
+/*.agregar .button {
   background-color: rgb(26, 26, 26);
   color: white;
-}
-.contenedor-boton .boton:hover {
+}*/
+/*
+.agregar .button:hover {
   background: white;
   color: black;
   height: 40px;
-}
+}*/
 
 footer {
   margin-top: 20px;
@@ -272,6 +340,7 @@ footer .container h2 {
 .pesos .boton-pagar .boton2:hover {
   background-color: rgb(26, 26, 26);
   color: white;
+  
   height: 40px;
   width: 60px;
 }
